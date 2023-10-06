@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>ITESS-TICS-FJMP HTML-CSS VIDEO TEMPLATE</title>
+        <meta
+            name="description"
+            content="A basic responsive web templates for ITESS-TICS-FJMP, by Dr. Francisco-Javier Montecillo-Puente"
+        />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <article>
+            <header class="Header">
+                <a href="/" class="LogoWrapper">
+                    <img src="img/tecnm-itess-small.png" alt="tecnm-itess logo"/>
+                </a>
+                <h1 class="Strap">by Dr. Francisco-Javier Montecillo-Puente</h1>
+                <h1 class="Strap">2023 (famontecillo@itess.edu.mx)</h1>
+            </header>
+            <h1 class="StrapArticle" >Video embed</h1>
+            <section class="IntroWrapper">
+                <h1>Description:</h1>
+                <p>Demostrate how to show video (not) responsive and iframe.</p>                
+            </section>
+
+            <section>
+                <h1>Non responsive video</h1>
+                <video
+                    src="video/myVideo.mp4"
+                    width="640"
+                    height="480"
+                    controls
+                    autoplay
+                    muted
+                    preload="auto"
+                    loop
+                    poster="img/myVideoPoster.png"
+                    >
+                       If you're reading this either the video didn't load or your browser is
+                    waaaayyyyyy old!
+                </video>
+            </section>
+            <section>
+                <h1>Providing alternate media sources</h1>
+                <video
+                   
+                    width="640"
+                    height="480"
+                    controls
+                    preload="auto"
+                    loop
+                    poster="img/myVideoPoster.png"
+                    >                    
+                    <source src="video/myVideo.mp4" type="video/mp4" />
+                    <p>
+                        <b>Download Video:</b>
+                        MP4 Format:
+                        <a href="video/myVideo.mp4">"MP4"</a>
+                    </p>
+                </video>
+            </section>
+
+            <footer class="FooterPage">
+                    Footer. 2023 Made by Francisco-Javier Montecillo-Puente.
+            </footer>
+        </article>
+    </body>
+</html>
